@@ -1,0 +1,88 @@
+form {
+    font-family: Verdana, Arial, Sans-Serif;
+    display: inline-block;
+    margin: 20px;
+	font-weight: 900;
+	font-size: 25px;
+	padding: 4px;
+}
+#messages {
+    font-size: 14px;
+	font-family: Garamond, Times, Serif;
+	margin: 22px;
+}
+
+.containerOne {
+    background: url('http://bit.ly/UpQgJ6') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+}
+
+p {
+	color: white;
+	font-weight: 900;
+	font-size: 25px;
+	padding: 4px;
+}
+
+#planet {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #008800;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#003500), to(#008800));
+    background-image: -webkit-linear-gradient(left, #003500, #008800); 
+    background-image:    -moz-linear-gradient(left, #003500, #008800);
+    background-image:     -ms-linear-gradient(left, #003500, #008800);
+    background-image:      -o-linear-gradient(left, #003500, #008800);
+    margin: 50px;
+}
+
+.red {
+    background-color: #CC0000 !important;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#330000), to(#CC0000)) !important;
+    background-image: -webkit-linear-gradient(left, #330000, #CC0000) !important; 
+    background-image:    -moz-linear-gradient(left, #330000, #CC0000) !important;
+    background-image:     -ms-linear-gradient(left, #330000, #CC0000) !important;
+    background-image:      -o-linear-gradient(left, #330000, #CC0000) !important;
+}
+
+.dblclick {
+    border-radius: 5px;
+    background-color: #ABCDEF;
+    margin: 22px;
+    display:inline-block;
+    padding: 30px;
+}
+
+.menuBar {
+    border-radius: 5px;
+    background-color: #ABCDEF;
+    transition: background-color 0.5s ease;
+    display:inline-block;
+    font-size:25px;
+    padding:20px;
+    border:1px solid #ccc;
+    margin: 22px;
+}
+
+.active {
+    background-color:#556677;
+}
+
+.movingMe {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: #FF0000;
+    position: relative;
+}
+.container {
+	margin-bottom: 40px;
+}
+
+img#mario {
+    position: relative;
+    left: 0;
+    top: 0;
+}

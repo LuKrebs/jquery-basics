@@ -1,0 +1,70 @@
+#orange {
+    height: 100px;
+    width: 100px;
+    background-color: #FA6900;
+    border-radius: 5px;
+    margin: 10px;
+    display: none;
+}
+#green {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.vanish {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: #F38630;
+    border-radius: 5px;
+}
+
+.vanishTwo {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: #F38630;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#blue {
+    background-color: #A7DBD8;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button {
+	display: inline-block;
+}
+
+.red {
+    background-color: #E84A5F;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+	display: inline-block;
+}
+
+.pink {
+    background-color: #FF847C;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+	display: inline-block;
+}
+
+.redAndPink {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #FF9C5B;
+    display: inline-block;
+}
