@@ -1,0 +1,103 @@
+div#test {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #ABCDEF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+img#elevator {
+    position: absolute;
+}
+
+.krypton {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: #008800;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#003500), to(#008800));
+    background-image: -webkit-linear-gradient(left, #003500, #008800); 
+    background-image:    -moz-linear-gradient(left, #003500, #008800);
+    background-image:     -ms-linear-gradient(left, #003500, #008800);
+    background-image:      -o-linear-gradient(left, #003500, #008800);
+    margin: 10px auto;
+}
+
+.kryptonTwo {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: #008800;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#003500), to(#008800));
+    background-image: -webkit-linear-gradient(left, #003500, #008800); 
+    background-image:    -moz-linear-gradient(left, #003500, #008800);
+    background-image:     -ms-linear-gradient(left, #003500, #008800);
+    background-image:      -o-linear-gradient(left, #003500, #008800);
+    margin: 10px auto;	
+}
+
+.container-fluid {
+    background-image: url('http://bit.ly/UpQgJ6');
+    repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+#top {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: #cc0000;
+    left: 25px;
+}
+#bottom {
+	position: relative;
+	height:25px;
+	width: 100px;
+	background-color: #cc0000;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	top: -25px;
+}
+#fwheel {
+	position: relative;
+	height:20px;
+	width:20px;
+	border-radius: 100%;
+	background-color: black;
+	top: -35px;
+	left: 5px;
+}
+#bwheel {
+	position: relative;
+	height:20px;
+	width:20px;
+	border-radius: 100%;
+	background-color: black;
+	top: -55px;
+	left: 75px;
+}
+
+ol {
+    list-style-type: none;
+	position: relative;
+	left: -20px;
+}
+
+ol li {
+	background: #eeeeee;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 3px;
+	padding: 0.4em;
+	font-size: 1em;
+	height: 3em;
+	font-family: Verdana, Arial, Sans-Serif;
+}
+
+ol .ui-selected {
+	background: #F39814; color: white;
+}

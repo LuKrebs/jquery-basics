@@ -34,7 +34,7 @@ $(document).ready(function() {
 		$('.movingMe').animate({left: "+=10px"}, 500);
 	});
 
-    $('body').keydown(function(key) {
+    $('body').on('keydown', function(key) {
         switch(parseInt(key.which,10)) {
 			// Left arrow key pressed
 			case 37:
