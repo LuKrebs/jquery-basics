@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>NBA GameBoard</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href = "https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+   rel = "stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="logo">GameBoard</h1>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="row scorecard">
+              <p>Final</p>
+              <div class="visitor col-xs-4">
+                <h2>97</h2>
+                <h3>Phoenix<br/>
+                Suns</h3>
+              </div>
+              <div class="dash col-xs-3">
+                <h2>-</h2>
+              </div>
+              <div class="home col-xs-4">
+                <h2>122</h2>
+                <h3>Denver<br/>
+                Nuggets</h3>
+              </div>
+            </div>
+            <div class="row more">
+              <div class="more-btn-container">
+                <a class="more-btn" href="#">More</a>
+                <ul class="more-menu">
+                  <li>Stats</li>
+                  <li class="share">Share</li>
+                  <li class="share-menu">
+                    <span>Facebook</span>
+                    <span>Google+</span>
+                    <span>Twitter</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="bell">
+                <span class="notification glyphicon glyphicon-bell"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="row scorecard">
+              <p>Final</p>
+              <div class="visitor col-xs-4">
+                <h2>83</h2>
+                <h3>Orlando<br/>
+                Magic</h3>
+              </div>
+              <div class="dash col-xs-3">
+                <h2>-</h2>
+              </div>
+              <div class="home col-xs-4">
+                <h2>98</h2>
+                <h3>Indiana<br/>
+                Pacers</h3>
+              </div>
+            </div>
+            <div class="row more">
+              <div class="more-btn-container">
+                <a class="more-btn" href="#">More</a>
+                <ul class="more-menu">
+                  <li>Stats</li>
+                  <li class="share">Share</li>
+                  <li class="share-menu">
+                    <span>Facebook</span>
+                    <span>Google+</span>
+                    <span>Twitter</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="bell">
+                <span class="notification glyphicon glyphicon-bell"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="row scorecard">
+              <p>Final</p>
+              <div class="visitor col-xs-4">
+                <h2>78</h2>
+                <h3>New York<br/>
+                Knicks</h3>
+              </div>
+              <div class="dash col-xs-3">
+                <h2>-</h2>
+              </div>
+              <div class="home col-xs-4">
+                <h2>105</h2>
+                <h3>OKC<br/>
+                Thunder</h3>
+              </div>
+            </div>
+            <div class="row more">
+              <div class="more-btn-container">
+                <a class="more-btn" href="#">More</a>
+                <ul class="more-menu">
+                  <li>Stats</li>
+                  <li class="share">Share</li>
+                  <li class="share-menu">
+                    <span>Facebook</span>
+                    <span>Google+</span>
+                    <span>Twitter</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="bell">
+                <span class="notification glyphicon glyphicon-bell"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="row scorecard">
+              <p>Final</p>
+              <div class="visitor col-xs-4">
+                <h2>102</h2>
+                <h3>LA<br/>
+                Clippers</h3>
+              </div>
+              <div class="dash col-xs-3">
+                <h2>-</h2>
+              </div>
+              <div class="home col-xs-4">
+                <h2>85</h2>
+                <h3>Houston<br/>
+                Rockets</h3>
+              </div>
+            </div>
+            <div class="row more">
+              <div class="more-btn-container">
+                <a class="more-btn" href="#">More</a>
+                <ul class="more-menu">
+                  <li>Stats</li>
+                  <li class="share">Share</li>
+                  <li class="share-menu">
+                    <span>Facebook</span>
+                    <span>Google+</span>
+                    <span>Twitter</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="bell">
+                <span class="notification glyphicon glyphicon-bell"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="row scorecard">
+              <p>Final</p>
+              <div class="visitor col-xs-4">
+                <h2>104</h2>
+                <h3>Milwaukee <br/>
+                Bucks</h3>
+              </div>
+              <div class="dash col-xs-3">
+                <h2>-</h2>
+              </div>
+              <div class="home col-xs-4">
+                <h2>88</h2>
+                <h3>Detroit<br/>
+                Pistons</h3>
+              </div>
+            </div>
+            <div class="row more">
+              <div class="more-btn-container">
+                <a class="more-btn" href="#">More</a>
+                <ul class="more-menu">
+                  <li>Stats</li>
+                  <li class="share">Share</li>
+                  <li class="share-menu">
+                    <span>Facebook</span>
+                    <span>Google+</span>
+                    <span>Twitter</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="bell">
+                <span class="notification glyphicon glyphicon-bell"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="row scorecard">
+              <p>Final</p>
+              <div class="visitor col-xs-4">
+                <h2>91</h2>
+                <h3>NO<br/>
+                Pelicans</h3>
+              </div>
+              <div class="dash col-xs-3">
+                <h2>-</h2>
+              </div>
+              <div class="home col-xs-4">
+                <h2>100</h2>
+                <h3>Atlanta<br/>
+                Hawks</h3>
+              </div>
+            </div>
+            <div class="row more">
+              <div class="more-btn-container">
+                <a class="more-btn" href="#">More</a>
+                <ul class="more-menu">
+                  <li>Stats</li>
+                  <li class="share">Share</li>
+                  <li class="share-menu">
+                    <span>Facebook</span>
+                    <span>Google+</span>
+                    <span>Twitter</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="bell">
+                <span class="notification glyphicon glyphicon-bell"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script type='text/javascript' src='js/script.js'></script>
+  </body>
+</html>
