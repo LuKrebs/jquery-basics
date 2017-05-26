@@ -50,7 +50,7 @@ button {
     height: 50px;
     width: 50px;
     border-radius: 100%;
-	display: inline-block;
+	display: none;
 }
 
 .pink {
@@ -58,7 +58,15 @@ button {
     height: 50px;
     width: 50px;
     border-radius: 100%;
-	display: inline-block;
+	display: none;
+}
+
+.pinkNew, .redNew {
+    background-color: #FF847C;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: inline-block;
 }
 
 .redAndPink {
@@ -66,5 +74,13 @@ button {
     width: 50px;
     border-radius: 100%;
     background-color: #FF9C5B;
+    display: inline-block;
+}
+
+.new {
+    background-color: #E84A5F;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
     display: inline-block;
 }

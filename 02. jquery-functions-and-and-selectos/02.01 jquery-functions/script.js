@@ -22,8 +22,14 @@ $(document).ready(function() {
     $('#buttonTwo').click(function() {
         $('#blue').fadeOut('slow');
     });
-
     $('#buttonThree').click(function() {
-		$('.pink, .red').fadeTo("slow", 0);
+        $('.pinkNew, .redNew').fadeTo("slow", 0.2);
+    });
+    $("#newbuttonThree").click(function() {
+        $(".pinkNew, .redNew").fadeTo("slow", 1);
+    })
+
+    $('#buttonFour').on("click", function() {
+		$('.pink, .red').toggleClass("new");
     });
 });

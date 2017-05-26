@@ -50,6 +50,6 @@ $(document).ready(function() {
     });
 
     $('#textChange').on('click', function() {
-    	$('.textChangeWithHtml').html("jQuery magic in action!");
+    	$('.textChangeWithHtml').html("<h1>jQuery magic in action!</h1>");
     });
 });

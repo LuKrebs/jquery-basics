@@ -6,7 +6,7 @@ form {
     display: inline-block;
 }
 
-#button{
+#button, #buttonRemove {
     display: inline-block;
     height:20px;
 	width:70px;
@@ -32,4 +32,9 @@ form {
 	margin: 5px;
 	color: black;
 	text-align: center;
+}
+.selected {
+	border: 2px solid black !important;
+	color: black !important;
+	background-color:#cc0000;
 }
