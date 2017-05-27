@@ -1,21 +1,27 @@
-div {
+/* div {
     height:100px;
     width:100px;
     display: inline-block;
-}
+} */
 
 #red {
     background-color:#FF0000;
+    height:400px;
+    width: 100%;
+    display: inline-block;
 }
 
 #blue {
     background-color:#0000FF;
+	height:400px;
+    width: 100%;
+    display: inline-block;
 }
 
-#yellow {
+/* #yellow {
     background-color:#E2BE22;
 }
 
 #green {
     background-color:#008800;
-}
+} */

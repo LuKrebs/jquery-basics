@@ -11,7 +11,11 @@ $(document).ready(function() {
 		$(this).css("transition", "0.7s");
 	});
 
-	$('#button').on('click', function() {
+	$(document).on('click', '.item', function() {
+		$(this).toggleClass('selected');
+	});
+	
+	$(document).on('click', "#button", function() {
 		var toAdd = $('input[name=checkListItem]').val();
 		if (toAdd !== "") {
 			$('.list').append('<div class="item">' + toAdd + '</div>');
@@ -19,12 +23,7 @@ $(document).ready(function() {
 		}
 	});
 
-	$(document).on('click', '.item', function() {
-		$(this).toggleClass('selected');
-		alert($(this).attr('class'));
-	});
-
-	$('#buttonRemove').on('click', function() {
+	$(document).on('click', "#buttonRemove", function() {
 		var x = $(".item").attr('class');
 		if (x === "item selected") {
 			$(".selected").remove();

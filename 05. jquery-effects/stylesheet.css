@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 img#elevator {
-    position: absolute;
+    position: relative;
 }
 
 .krypton {

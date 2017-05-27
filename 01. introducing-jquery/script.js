@@ -1,7 +1,9 @@
 function main() {
-    $('div').hide();
-    $('div').slideDown("slow");
-    $('.fadeOut').fadeOut(3000);
+    $('#blue').hide();
+    $('#red').hide();
+    $('#blue').slideDown(3000);
+    // $('.fadeOut').fadeOut(3000);
+    
     
 
     $("div").mouseenter(function() {
@@ -19,7 +21,12 @@ function main() {
     });
     $('div').click(function() {
         $(this).slideToggle(1000);
-   }); 
+   });
+
+    $('button').on('click', function(){
+        $('#blue').toggle(1000);
+        $('#red').toggle(2000);
+    });
 
 }
 

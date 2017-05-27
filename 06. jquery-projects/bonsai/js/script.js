@@ -1,10 +1,10 @@
 var main = function() {
   $('#top-text').on('keyup', function() {
     var test = $(this).val();
-	$('.top-caption').text(test);
-	if (test === "")	 {
-		$('.top-caption').text("U say something?");
-	}
+  	$('.top-caption').text(test);
+  	if (test === "")	 {
+  		$('.top-caption').text("U say something?");
+  	}
   });
   $('#bottom-text').on('keyup', function() {
     var testTwo = $(this).val();
@@ -19,9 +19,9 @@ var main = function() {
     $('.mainImage').attr('src', testThree);
     $('.mainImage').css('width', "100%");
     $('.mainImage').css('heigth', "100%");
-	if (testThree === "")	 {
-		$('.mainImage').attr('src', 'img/cat.jpg');
-	}
+  	if (testThree === "")	 {
+  		$('.mainImage').attr('src', 'img/cat.jpg');
+  	}
   });
 };
  
